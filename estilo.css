@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif; /* Você pode escolher outra fonte que goste */
+    background-color: #FFF0E0; /* Um tom pêssego claro, lembrando o pelo de raposa */
+    color: #5D4037; /* Marrom escuro para o texto, bom contraste */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    max-width: 700px;
+    border: 5px solid #FF7043; /* Laranja vibrante, cor de raposa */
+}
+
+header h1 {
+    color: #D84315; /* Laranja mais escuro para o título */
+    font-size: 2.5em; /* Tamanho maior para o título */
+    margin-bottom: 20px;
+    font-family: 'Monaco', serif; /* Uma fonte mais elegante para o título */
+}
+
+.mensagem {
+    font-size: 1.2em; /* Tamanho de fonte confortável para leitura */
+    line-height: 1.8; /* Espaçamento entre linhas */
+    margin-bottom: 20px;
+    text-align: left; /* Alinhar o texto da mensagem à esquerda para melhor leitura */
+    color: #4E342E; /* Um tom de marrom mais suave */
+}
+
+.assinatura {
+    font-size: 1.3em;
+    font-style: bold;
+    color: #D84315;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: right; 
+}
+
+.imagem-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.imagem-container img {
+    max-width: 50%; 
+    height: auto; 
+    border-radius: 10px; 
+    border: 0px solid #FFAB91; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #795548; 
+}
+
+/* Pequenos detalhes com tema de raposa (opcional) */
+header h1::before, header h1::after {
+    content: "🐾"; /* Exemplo com patinhas, pode ficar um pouco infantil. Ajuste como preferir */
+    font-size: 0.7em; 
+    margin: 0 10px; 
+    color: #FF7043; 
+}
